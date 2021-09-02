@@ -1,7 +1,155 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'font', sans-serif;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+
+/* Main Page of the website */
+.main-content {
+  border: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  background-color: #070217;
+}
+.s_logo {
+  margin-bottom: 50px;
+  /* padding: 10px;
+  border: 2px solid white; */
+}
+
+.menu {
+  font-size: 0;
+  margin: 0 0 50px 0;
+}
+
+.indents_link {
+  font-size: 16px;
+  display: inline-block;
+  padding: 24px 49px;
+}
+
+.modules_link {
+  font-size: 16px;
+  display: inline-block;
+  padding: 24px 49px;
+  margin-right: 25px;
+}
+
+.indents_link:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+/* End of Main page of the website */
+
+/* Start of Article */
+.container {
+  margin: 0 auto;
+  padding: 80px 0;
+  width: 1170px;
+}
+
+.container ul {
+  margin: 0 0 0 15px;
+}
+
 h1 {
-  font-size: 40pt;
+  margin: 0 0 40px 0;
 }
+
+h2 {
+  margin: 0 0 10px 0;
+}
+
+h3 {
+  margin: 0 0 10px 0;
+}
+
+.container:last-child {
+  margin: 0;
+}
+
+img {
+  margin: 0 0 40px 0;
+}
+
+#caption img{
+  margin: 0;
+}
+
+ul {
+  padding: 0 0 0 15px;
+}
+
+li {
+  margin: 0 0 20px 0;
+}
+
 p {
-  font-size: 33pt;
-  background-color: blueviolet;
+  margin: 0 0 40px 0;
+  width: 872px;
 }
+
+figure {
+  display: inline-block;
+  margin: 0 0 40px 0;
+  width: 872px;
+}
+
+.wrap {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #f3f3f3;
+  margin: 0 0 40px 0;
+}
+
+.wrap p {
+  width: 692px;
+  margin-bottom: 0 0 10px 0;
+}
+
+.wrap:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* хотел добавить немного красоты подписям */
+/* figcaption {
+  font-size: 14px;
+  font-family: PT Mono;
+  color: gray
+} */
+
+.block5 p:last-child {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+
+/* End of Article */
