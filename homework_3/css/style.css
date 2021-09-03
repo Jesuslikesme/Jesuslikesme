@@ -21,7 +21,7 @@ body {
 	font-family: 'font', sans-serif;
 }
 
-p{
+p {
   padding: 0;
   margin: 0;
 }
@@ -37,10 +37,9 @@ p{
   color: #fff;
   background-color: #070217;
 }
-.s_logo {
-  margin-bottom: 50px;
-  /* padding: 10px;
-  border: 2px solid white; */
+.skill-link {
+  display: inline-block;
+  margin: 0 0 50px 0;
 }
 
 .menu {
@@ -48,17 +47,17 @@ p{
   margin: 0 0 50px 0;
 }
 
-.indents_link {
-  font-size: 16px;
-  display: inline-block;
-  padding: 24px 49px;
-}
-
-.modules_link {
+.link {
   font-size: 16px;
   display: inline-block;
   padding: 24px 49px;
   margin-right: 25px;
+}
+
+.link-last {
+  font-size: 16px;
+  display: inline-block;
+  padding: 24px 49px;
 }
 
 .indents_link:last-child {
@@ -74,19 +73,15 @@ p{
   width: 1170px;
 }
 
-.container ul {
-  margin: 0 0 0 15px;
-}
-
-h1 {
+.heading-1 {
   margin: 0 0 40px 0;
 }
 
-h2 {
+.heading-2 {
   margin: 0 0 10px 0;
 }
 
-h3 {
+.heading-3 {
   margin: 0 0 10px 0;
 }
 
@@ -94,28 +89,35 @@ h3 {
   margin: 0;
 }
 
-img {
+.picture {
   margin: 0 0 40px 0;
 }
 
-#caption img{
-  margin: 0;
-}
-
-ul {
-  padding: 0 0 0 15px;
-}
-
-li {
-  margin: 0 0 20px 0;
-}
-
-p {
+.caption{
+  display: inline-block;
   margin: 0 0 40px 0;
   width: 872px;
 }
 
-figure {
+.imagetext {
+margin: 0;
+}
+
+.ulist {
+  padding: 0 0 0 15px;
+  margin: 0;
+}
+
+.list {
+  margin: 0 0 20px 0;
+}
+
+.paragraph {
+  margin: 0 0 40px 0;
+  width: 872px;
+}
+
+.caption {
   display: inline-block;
   margin: 0 0 40px 0;
   width: 872px;
@@ -134,7 +136,7 @@ figure {
 }
 
 .wrap:last-child {
-  padding-bottom: 0;
+  padding-bottom: 30px;
   margin-bottom: 0;
 }
 
